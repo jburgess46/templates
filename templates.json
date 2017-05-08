@@ -342,5 +342,21 @@
       "55413/tcp", "55414/tcp", "55415/tcp", "35622/tcp"
     ],
     "volumes": ["/var/urbackup"]
+  },
+  {
+    "title": "Mercury",
+    "description": "Mercury Pricing Model App",
+    "logo": "https://forsythe.com/_wss/clients/500/images/logo_black.png",
+    "image": "fsgssg/mercury-client-rehearsal",
+    "env": [
+      {
+        "name": "API_HOST",
+        "label": "API Host URL",
+        "set": "api"
+      }
+    ],
+    "ports": [
+      "443:3030/tcp"
+    ]
   }
 ]
